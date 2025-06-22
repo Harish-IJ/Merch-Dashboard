@@ -1,0 +1,37 @@
+.button {
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border: none;
+  font-size: 1rem;
+
+  &--primary {
+    background-color: #1a73e8;
+    color: #fff;
+
+    &:hover {
+      background-color: #0f5fd6;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    color: #1a73e8;
+    border: 2px solid #1a73e8;
+
+    &:hover {
+      background-color: rgba(26, 115, 232, 0.1);
+    }
+  }
+
+  &--danger {
+    background-color: #e53935;
+    color: #fff;
+
+    &:hover {
+      background-color: #c62828;
+    }
+  }
+}
